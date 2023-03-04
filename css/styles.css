@@ -4472,9 +4472,8 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid #900;
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -6473,7 +6472,7 @@ textarea.form-control-lg {
 }
 
 .ratio-16x9 {
-  --bs-aspect-ratio: 56.25%;
+  --bs-aspect-ratio: 100%;
 }
 
 .ratio-21x9 {
