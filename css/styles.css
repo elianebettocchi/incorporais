@@ -4475,6 +4475,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid #900;
   border-radius: 0.25rem;
+  background-color: #006;
 }
 .card > hr {
   margin-right: 0;
