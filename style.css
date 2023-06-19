@@ -1,15 +1,16 @@
 body {
     margin: 0;
     padding: 0;
-    text-align: center;
-    min-height: 100vh;
     background-color: rgb(0, 22, 53);
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(0, 22, 53);
+    color: #ccc;
 }
-
-/* Controls and Message Styles */
-
+.justify{
+    text-align: justify;
+}
+.center{
+    text-align: center;
+}
 button {
     font-size: 100%;
     border-radius: 5px;
@@ -19,6 +20,9 @@ button {
     color: white;
     border: white solid 1px;
     background-color: rgb(0,0,0,0.3);
+}
+.navbar-toggler{
+    width: auto;
 }
 .light {
     font-size: 100%;
@@ -43,16 +47,19 @@ button {
 .a-white{
     color: white;
 }
+.a-blue{
+    color: darkblue;
+}
 
 .fundo{
-    background-image: url("https://drive.google.com/uc?export=view&id=1gDdjCrIMcECF5MTsOOdn_m-T0LQ9dyQx");
+    background-image: url("./img/chita.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
 }
 .cowries{
-    background-image: url("https://drive.google.com/uc?export=view&id=1hOZynueMzmSuptmD-PGr8o-37twhkDO2");
+    background-image: url("./img/cowries.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -69,19 +76,28 @@ img{
     background-color: rgb(0,0,102,0.0);
 }
 a {
-    color: #900;
+    color: #c00;
 }
 a:hover{
-    color: red;
+    color: white;
     text-decoration: none;
 }
 .btn{
     width: auto;
 }
-hr{
+.divider{
     color: #900;
+    width: 25%;
 }
-.navbar-brand, .nav-link{
-    color:  rgb(0, 22, 53);
-    font-weight: bold;
+.darkred{
+    background-color: #400;
+}
+.darkgrey{
+    background-color: #444;
+}
+.darkgreen{
+    background-color: #003300;
+}
+.darkyellow{
+    background-color: darkgoldenrod;
 }
