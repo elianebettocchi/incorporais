@@ -60,7 +60,7 @@ button {
 }
 .cowries{
     background-image: url("./img/cowries.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
