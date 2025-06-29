@@ -102,6 +102,9 @@ img{
 .img2{
     width: 90%;
 }
+.icon{
+    width: 20px;
+}
 .card{
     width: 100%;
     background-color: rgb(0,0,102,0.0);
@@ -116,9 +119,12 @@ a:hover{
 .btn{
     width: auto;
 }
-.divider{
-    color: #900;
+hr {
+    background-color: #666;
     width: 25%;
+}
+.darkblue{
+    background-color: rgb(0, 22, 53);
 }
 .darkred{
     background-color: #400;
@@ -131,6 +137,10 @@ a:hover{
 }
 .darkyellow{
     background-color: darkgoldenrod;
+}
+.transparent{
+    background-color: rgb(0,0,0,0);
+    border-width: 0;
 }
 .centered {
     position: absolute;
